@@ -1,1 +1,33 @@
-{{outlet}}
+<div class="outsidebox">
+  <div class="left-mirror">
+    <div class="circles">
+
+    </div>
+  </div>
+
+  <div class="right-mirror">
+
+  </div>
+</div>
+
+<h2>{{individual-icecream icecreams=model}}</h2>
+
+
+
+<h1>Welcome to BrainFreeze!</h1>
+
+<h2>Here Are Our Selection of Flavors</h2>
+
+<ul>
+  {{#each model as |icecream|}}
+  <li>
+    <span><img src={{icecream.image}} width="300px"></span>
+    <br>
+    {{icecream.flavor}} {{icecream.description}}
+    {{log 'Flavor is:' icecream.flavor}}
+  </li>
+  {{/each}}
+</ul>
+
+
+{{new-icecream iceCreamFunction="iceCreamSecretCode" }}

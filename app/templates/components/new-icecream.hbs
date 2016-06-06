@@ -1,1 +1,30 @@
-{{yield}}
+{{#if addNewIceCream}}
+<h1>New Ice cream</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="flavor">Flavor</label>
+        {{input value=flavor id="flavor"}}
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        {{input value=description id="description"}}
+      </div>
+
+      <div class="form-group">
+        <label for="lowcalorie" class="checkbox-inline">Low Calorie?</label>
+        {{input type="checkbox" checked=lowcalorie id="lowcalorie"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image"}}
+      </div>
+
+      <button {{action 'icecreamSaveFromForm'}} type="submit">Save</button>
+    </form>
+  </div>
+  {{else}}
+    <button {{action 'icecreamFormShow'}}>New Flavor</button>
+  {{/if}}
