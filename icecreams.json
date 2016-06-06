@@ -1,0 +1,17 @@
+{ "icecreams": [{
+    "flavor": "Bananarama",
+    "description": "So good, our monkeys love it",
+    "lowcalorie": true,
+    "image": "http://www.yorvale.co.uk/uploads/icecream/Banana_OR.jpg"
+  }, {
+    "flavor": "Minty Fresh",
+    "description": "You can kiss your sweetheart after eating this",
+    "lowcalorie": false,
+    "image": "http://images6.fanpop.com/image/photos/34700000/Mint-Chocolate-Chips-Ice-Cream-ice-cream-34732778-400-304.jpg"
+  }, {
+    "flavor": "Rainbow Sherbert",
+    "description": "Taste the rainbow",
+    "lowcalorie": false,
+    "image": "http://www.icecreamed.com/wp-content/uploads/2013/01/rainbow-ice-cream.jpg"
+    }]
+}
