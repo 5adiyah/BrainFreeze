@@ -1,7 +1,10 @@
 # Brain-freeze
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+##By Kendra Dunham and Sadio Ali
+
+##Description
+
+This was a Javascript Ember project which was initially conceived as a website for an ice cream store.
 
 ## Prerequisites
 
@@ -15,10 +18,13 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+```
+$ git clone https://github.com/kendragons/kegerator-js
+$ cd kegerator-js
+$ `npm install`
+$ `bower install`
+$ ember s
+```
 
 ## Running / Development
 
@@ -38,16 +44,3 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
